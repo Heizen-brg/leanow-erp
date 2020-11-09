@@ -1,0 +1,21 @@
+.img--square {
+  width: 100%;
+  padding-top:  1/1 *100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img--portrait {
+  width: 100%;
+  padding-top:  5/4 *100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img--landscape {
+  width: 100%;
+  padding-top:  16/9 *100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

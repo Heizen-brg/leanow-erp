@@ -1,0 +1,55 @@
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sidebar';
+@import 'layout/forms';
+
+@import 'components/buttons';
+@import 'components/img';
+@import 'components/slider';
+
+@import 'pages/home';
+@import 'pages/product-list';
+@import 'pages/goods-receipt';
+@import 'pages/transfer-warehouse';
+
+
+/* homepage */
+
+
+
+
+
+html {
+  font-size: 14px;
+}
+body {
+overflow-x: hidden;
+font-family: Regular , sans-serif;
+}
+button,
+li,
+label {
+  cursor: pointer;
+}
+
+[class*="icon-"] {
+	stroke: $black;
+	fill: transparent;
+	width: 20px;
+	height: 20px;
+	box-sizing: content-box;
+	padding: 10px;
+	cursor: pointer;
+}
+
+[class*="icon-"] line {
+	stroke: $black;
+}

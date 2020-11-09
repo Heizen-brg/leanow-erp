@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.557" height="15" viewBox="0 0 19.557 15">
+  <g id="Group_433" data-name="Group 433" transform="translate(-10276 91)">
+    <g id="Group_431" data-name="Group 431">
+      <path id="Icon_simple-microsoftexcel" data-name="Icon simple-microsoftexcel" d="M13.52,2.164H8.9v.947h1.36v1.5H8.9v.477h1.36v1.5H8.9v.491h1.36V8.5H8.9v.569h1.36v1.422H8.9v.568h1.36v1.43H8.9v1.043H13.52c.073-.024.134-.12.183-.285a1.531,1.531,0,0,0,.074-.4V2.337c0-.081-.025-.131-.074-.148A.573.573,0,0,0,13.52,2.164Zm-.6,10.322H10.707V11.057h2.214v1.43Zm0-2H10.707V9.065h2.214Zm0-1.991H10.707V7.084h2.214V8.5Zm0-1.91H10.707v-1.5h2.214v1.5h0Zm0-1.986H10.707V3.112h2.214V4.6ZM0,1.928V13.769l8.128,1.559v-15L0,1.933Zm4.818,8.958q-.046-.139-.435-1.186c-.258-.7-.413-1.1-.459-1.22H3.91l-.872,2.3-1.165-.087L3.255,7.829,1.989,4.964l1.188-.069.785,2.242h.015l.887-2.343,1.228-.086-1.462,3.1L6.137,10.97l-1.32-.086Z" transform="translate(10276 -91.329)"/>
+      <g id="Group_429" data-name="Group 429" transform="translate(10284.709 -88.252)">
+        <line id="Line_82" data-name="Line 82" x1="0.05" y2="5.979" transform="translate(8.699 2.273)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="Path_59" data-name="Path 59" d="M7.291,3.766,8.77,2.252l1.372,1.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

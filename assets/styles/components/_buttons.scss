@@ -1,0 +1,67 @@
+.btn {
+  @include border($black,4px);
+  @include transition;
+  padding: 10px 15px;
+  background-color: $white;
+  &:hover {
+    background-color: $black !important;
+    color: $white;
+  }
+}
+.confirm__btn {
+  width: 100%;
+  position: relative;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  button {
+    @include border(transparent,4px);
+    width: 90%;
+    background-color: $black;
+    border: none;
+    color: $white;
+    padding: 10px;
+    margin: 5px;
+    font-size: 1rem;
+  @include transition;
+  }
+}
+.delete_btn {
+  width: 100%;
+  position: relative;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  button {
+    @include border(transparent,4px);
+    width: 90%;
+    background-color: $red;
+    border: none;
+    color: $white;
+    padding: 15px;
+    font-size: 1.2rem;
+  @include transition;
+  }
+}
+
+.button__group {
+  width: 100%;
+  padding: 10px;
+  @include flex(row,space-around,center);
+  button {
+    border-radius: 4px;
+    padding: 10px 30px;
+  }
+  .button__group--cancel {
+    color: $black;
+    border: thin solid $black;
+    background-color: $white;
+  }
+  .button__group--action {
+    color: $white;
+    border: thin solid $black;
+    background-color: $black;
+  }
+}

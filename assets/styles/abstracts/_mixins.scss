@@ -1,0 +1,20 @@
+@mixin flex($direction: row, $content: null , $items: null, $wrap: null) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $content;
+  align-items: $items;
+  flex-wrap: $wrap;
+}
+@mixin flexCenter($dir:row) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $dir;
+}
+@mixin border($color, $radius:null) {
+  border: thin solid $color;
+  border-radius: $radius ;
+}
+@mixin transition {
+  transition: all ease-in-out 0.2s;
+}

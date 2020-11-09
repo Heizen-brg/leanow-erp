@@ -1,0 +1,13 @@
+[class*="__header"] {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 3px $silver;
+  h1 {
+    display: flex;
+    align-items: center;
+  }
+}
